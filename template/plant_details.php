@@ -96,9 +96,9 @@ session_start();
 // Assuming you get the plantid from a form or URL parameter
 // if (isset($_GET['plantid'])) {
     // $plantid = $_GET['plantid'];
-$plantid=170;
 
-$sql = "SELECT * FROM plants WHERE plant_id = ".$plantid;
+
+$sql = "SELECT * FROM plants WHERE plant_id = ".$_GET['plant_id'];
 $result = $con->query($sql);
 
     if ($result->num_rows > 0) {

@@ -59,18 +59,18 @@
                                 <ul>
                                     <li><a href="index.php">Home</a></li>
                                     <li><a href="about.php">About</a></li>
-                                    <li><a href="plants.php">Plants categories</a>
+                                    <li><a href="plants.php">Plant categories</a>
                                     <ul class="dropdown">
-                                            <li><a href="1">Vegetables</a></li>
-                                            <li><a href="2">Herbs</a></li>
-                                            <li><a href="3">Fruits</a></li>
-                                            <li><a href="4">Flowers</a></li>
-                                            <li><a href="5">Indoor Houseplants</a></li>
-                                            <li><a href="6">Cacti and Succulants</a></li>
-                                            <li><a href="7">Perennials</a></li>
-                                            <li><a href="8">Annuals</a></li>
-                                            <li><a href="9">Shrubs and Bushes</a></li>
-                                            <li><a href="10">Vines and Climbers</a></li>
+                                            <li><a href="plants.php?cat_name=Vegetables">Vegetables</a></li>
+                                            <li><a href="plants.php?cat_name=Herbs">Herbs</a></li>
+                                            <li><a href="plants.php?cat_name=Fruits">Fruits</a></li>
+                                            <li><a href="plants.php?cat_name=Flowers">Flowers</a></li>
+                                            <li><a href="plants.php?cat_name=Indoor_Houseplants">Indoor_Houseplants</a></li>
+                                            <li><a href="plants.php?cat_name=Cacti_and_Succulants">Cacti_and_Succulants</a></li>
+                                            <li><a href="plants.php?cat_name=Perennials">Perennials</a></li>
+                                            <li><a href="plants.php?cat_name=Annuals">Annuals</a></li>
+                                            <li><a href="plants.php?cat_name=Shrubs_and_Bushes">Shrubs_and_Bushes</a></li>
+                                            <li><a href="plants.php?cat_name=Vines_and_Climbers">Vines_and_Climbers</a></li>
                                            
 
                                         </ul>

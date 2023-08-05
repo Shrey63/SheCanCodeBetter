@@ -119,9 +119,9 @@ require('connection.php');
 session_start();
 
 
-  $communityid=1;
+  
   include 'head.php'; 
-$sql = "SELECT * FROM community WHERE com_id = ".$communityid;
+$sql = "SELECT * FROM community WHERE com_id = ".$_GET['com_id'];
 $result = $con->query($sql);
 
     if ($result->num_rows > 0) {
@@ -129,11 +129,9 @@ $result = $con->query($sql);
 ?>
 
     <div class="community-info">
-      <img
-        src="https://cdn.pixabay.com/photo/2014/07/08/10/47/team-386673_1280.jpg"
-        alt="Community Photo"
-      />
-      <div class="details">
+    <img src="<?php echo "comm_pics/".$row['com_logo']?>" class="team-image" />';
+                
+                <div class="details">
         <p><strong>Community Name:</strong> <?php echo $row['com_name'] ?></p>
 
 <?php
@@ -157,7 +155,7 @@ $result = $con->query($sql);
           <strong>Agenda:</strong> <?php echo $row['agenda'] ?>
         </p>
 <?php
-        $membersSql = "SELECT COUNT(*) AS member_count FROM member WHERE community_id = $communityid";
+        $membersSql = "SELECT COUNT(*) AS member_count FROM member where community_id = ".$_GET['com_id'];
         $membersResult = $con->query($membersSql);
 
         if ($membersResult && $membersResult->num_rows > 0) {
