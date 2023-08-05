@@ -28,7 +28,7 @@
             <img src="img/core-img/leaf.png" alt="">
         </div>
     </div>
-    <div></div>
+    
 
 
     <!-- ##### Hero Area Start ##### -->
