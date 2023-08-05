@@ -23,39 +23,39 @@
 					<h4>Create an account</h4>
 				</div>
 				<!-- Form -->
-				<form class="px-3">
+				<form action="registeration.php" method="POST" class="px-3">
 					<!-- Input Box -->
 					<div class="form-input">
 						<span><i class="fa fa-user"></i></span>
-						<input type="text" name="" placeholder="Full Name" tabindex="10"required>
+						<input type="text" name="username" placeholder="Full Name" tabindex="10"required>
 					</div>
 					<div class="form-input">
 						<span><i class="fa fa-envelope"></i></span>
-						<input type="email" name="" placeholder="Email Address" tabindex="10"required>
+						<input type="email" name="useremail" placeholder="Email Address" tabindex="10"required>
 					</div>
 					<div class="form-input">
 						<span><i class="fa fa-lock"></i></span>
-						<input type="password" name="" placeholder="Password" required>
+						<input type="password" name="password" placeholder="Password" required>
 					</div>
                                                                                   <div class="form-input">
 						<span><i class="fa fa-user"></i></span>
-						<input type="text" name="" placeholder="Experience" >
+						<input type="text" name="experience" placeholder="Experience" >
 					</div>
                                                                                            <div class="form-input">
 						<span><i class="fa fa-user"></i></span>
-						<input type="text" name="" placeholder="City" >
+						<input type="text" name="city" placeholder="City" >
 					</div>
                                                                                         <div class="form-input">
 						<span><i class="fa fa-user"></i></span>
-						<input type="text" name="" placeholder="State" >
+						<input type="text" name="state" placeholder="State" >
 					</div>
                                                                                         <div class="form-input">
 						<span><i class="fa fa-user"></i></span>
-						<input type="text" name="" placeholder="Address" >
+						<input type="text" name="address" placeholder="Address" >
 					</div>
 					<!-- Register Button -->
 		            <div class="mb-3"> 
-						<button type="submit" class="btn btn-block">Register</button>
+						<button type="submit" name="register" class="btn btn-block">Register</button>
 					</div>
 					<div class="text-center mb-2">
 	                   	<div class="text-center mb-3" style="color: #777;">or register with</div>
