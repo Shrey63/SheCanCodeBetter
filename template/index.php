@@ -22,11 +22,13 @@
     <!-- Preloader -->
     <?php include 'head.php'; ?>
     <div class="preloader d-flex align-items-center justify-content-center">
+        <div></div>
         <div class="preloader-circle"></div>
         <div class="preloader-img">
             <img src="img/core-img/leaf.png" alt="">
         </div>
     </div>
+    <div></div>
 
 
     <!-- ##### Hero Area Start ##### -->
