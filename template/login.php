@@ -23,15 +23,15 @@
 					<h4>Login</h4>
 				</div>
 				<!-- Form -->
-				<form class="px-3">
+				<form action="loginvalidate.php" method="POST"   class="px-3">
 					<!-- Input Box -->
 					<div class="form-input">
 						<span><i class="fa fa-envelope"></i></span>
-						<input type="email" name="" placeholder="Email Address" tabindex="10"required>
+						<input type="email" name="email" placeholder="Email Address" tabindex="10"required>
 					</div>
 					<div class="form-input">
 						<span><i class="fa fa-lock"></i></span>
-						<input type="password" name="" placeholder="Password" required>
+						<input type="password" name="password" placeholder="Password" required>
 					</div>
 					<div class="row mb-3">
 						<!-- Remember Box -->
@@ -44,7 +44,7 @@
 			   	    </div>
 			   	    <!-- Login Button -->
 		            <div class="mb-3"> 
-						<button type="submit" class="btn btn-block">Login</button>
+						<button type="submit" name="login" class="btn btn-block">Login</button>
 					</div>
 					<div class="text-right ">
 		                <a href="reset.html" class="forget-link">Forgot password?</a>
