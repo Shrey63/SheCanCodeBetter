@@ -19,29 +19,19 @@
             if(mysqli_num_rows($result)==1)
             {
             $row = mysqli_fetch_assoc($result);
-
             $email = $row['email'];
             $password = $row['password'];
             
-                    if($_POST['password']== $password && $_POST['email']==$email)
-                    {
+                    
                         #if password matched
                         $_SESSION['logged_in']=true;
                         // $_SESSION['username']=$result_fetch['username'];
-                        $_SESSION['email']=$result_fetch['email'];
+                        $_SESSION['email']=$email;
                         echo "<script>alert('Logged in successfully!'); 
                             window.location.href='index.php';
                             </script>";
                     
-                    }
-                    else
-                    {
-                        #if password not matched
-                        // echo "<script>alert('Incorrect Password!'); 
-                        //     window.location.href='login.php';
-                        //     </script>";
-                    }
-                
+                    
               
 
 
