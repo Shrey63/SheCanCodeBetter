@@ -8,7 +8,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title></title>
+    <title>PlantParentingPlace</title>
 
     <!-- Favicon -->
     <link rel="icon" href="img/core-img/favicon.ico">
@@ -97,7 +97,7 @@
                                             <!-- <li><a href="contact.html">Contact</a></li>
                                         </ul>
                                     </li> -->
-                                    <li><a href="communitypage.html">Community</a></li>
+                                    <li><a href="communitypage.php">Community</a></li>
                                     <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
                                     <li><a href="contact.php">Contact</a></li>
                                     <li class="login">

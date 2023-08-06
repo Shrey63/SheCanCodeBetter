@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Alazea - Gardening &amp; Landscaping HTML Template</title>
+  
 
     <!-- Favicon -->
     <link rel="icon" href="img/core-img/favicon.ico">
@@ -28,137 +28,7 @@
         </div>
     </div>
 
-    <!-- ##### Header Area Start ##### -->
-    <header class="header-area">
-
-        <!-- ***** Top Header Area ***** -->
-        <div class="top-header-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="top-header-content d-flex align-items-center justify-content-between">
-                            <!-- Top Header Content -->
-                            <div class="top-header-meta">
-                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="infodeercreative@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> <span>Email: infodeercreative@gmail.com</span></a>
-                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="+1 234 122 122"><i class="fa fa-phone" aria-hidden="true"></i> <span>Call Us: +1 234 122 122</span></a>
-                            </div>
-
-                            <!-- Top Header Content -->
-                            <div class="top-header-meta d-flex">
-                                <!-- Language Dropdown -->
-                                <div class="language-dropdown">
-                                    <div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle mr-30" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item" href="#">USA</a>
-                                            <a class="dropdown-item" href="#">UK</a>
-                                            <a class="dropdown-item" href="#">Bangla</a>
-                                            <a class="dropdown-item" href="#">Hindi</a>
-                                            <a class="dropdown-item" href="#">Spanish</a>
-                                            <a class="dropdown-item" href="#">Latin</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Login -->
-                                <div class="login">
-                                    <a href="#"><i class="fa fa-user" aria-hidden="true"></i> <span>Login</span></a>
-                                </div>
-                                <!-- Cart -->
-                                <div class="cart">
-                                    <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> <span>Cart <span class="cart-quantity">(1)</span></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- ***** Navbar Area ***** -->
-        <div class="alazea-main-menu">
-            <div class="classy-nav-container breakpoint-off">
-                <div class="container">
-                    <!-- Menu -->
-                    <nav class="classy-navbar justify-content-between" id="alazeaNav">
-
-                        <!-- Nav Brand -->
-                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
-
-                        <!-- Navbar Toggler -->
-                        <div class="classy-navbar-toggler">
-                            <span class="navbarToggler"><span></span><span></span><span></span></span>
-                        </div>
-
-                        <!-- Menu -->
-                        <div class="classy-menu">
-
-                            <!-- Close Button -->
-                            <div class="classycloseIcon">
-                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                            </div>
-
-                            <!-- Navbar Start -->
-                            <div class="classynav">
-                                <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="#">Pages</a>
-                                        <ul class="dropdown">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a href="shop.html">Shop</a>
-                                                <ul class="dropdown">
-                                                    <li><a href="shop.html">Shop</a></li>
-                                                    <li><a href="shop-details.html">Shop Details</a></li>
-                                                    <li><a href="cart.html">Shopping Cart</a></li>
-                                                    <li><a href="checkout.html">Checkout</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="portfolio.html">Portfolio</a>
-                                                <ul class="dropdown">
-                                                    <li><a href="portfolio.html">Portfolio</a></li>
-                                                    <li><a href="single-portfolio.html">Portfolio Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="blog.html">Blog</a>
-                                                <ul class="dropdown">
-                                                    <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="single-post.html">Blog Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="shop.html">Shop</a></li>
-                                    <li><a href="portfolio.html">Portfolio</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                </ul>
-
-                                <!-- Search Icon -->
-                                <div id="searchIcon">
-                                    <i class="fa fa-search" aria-hidden="true"></i>
-                                </div>
-
-                            </div>
-                            <!-- Navbar End -->
-                        </div>
-                    </nav>
-
-                    <!-- Search Form -->
-                    <div class="search-form">
-                        <form action="#" method="get">
-                            <input type="search" name="search" id="search" placeholder="Type keywords &amp; press enter...">
-                            <button type="submit" class="d-none"></button>
-                        </form>
-                        <!-- Close Icon -->
-                        <div class="closeIcon"><i class="fa fa-times" aria-hidden="true"></i></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- ##### Header Area End ##### -->
-
+   <?php require "head.php";?>
     <!-- ##### Breadcrumb Area Start ##### -->
     <div class="breadcrumb-area">
         <!-- Top Breadcrumb Area -->
@@ -191,7 +61,7 @@
                         <h2>ABOUT US</h2>
                         <p>We are leading in the plants service fields.</p>
                     </div>
-                    <p>Quisque orci quam, vulputate non commodo finibus, molestie ac ante. Duis in sceleri quesem. Nulla sit amet varius nunc. Maecenas dui, tempeu ullam corper in.</p>
+                    <p>Welcome to Plant Parent Place, your ultimate destination for all things related to plant care, gardening, and cultivating your green haven. Our mission is to empower and inspire both novice and experienced plant enthusiasts on their journey to becoming confident and successful plant parents..</p>
 
                     <!-- Progress Bar Content Area -->
                     <div class="alazea-progress-bar mb-50">
@@ -248,8 +118,8 @@
                             <div class="col-12 col-sm-6">
                                 <div class="single-benefits-area">
                                     <img src="img/core-img/b1.png" alt="">
-                                    <h5>Quality Products</h5>
-                                    <p>Intiam eu sagittis est, at commodo lacini libero. Praesent dignissim sed odio vel aliquam manta lagorn.</p>
+                                    <h5>Quality Care Guidelines</h5>
+                                    
                                 </div>
                             </div>
 
@@ -257,8 +127,8 @@
                             <div class="col-12 col-sm-6">
                                 <div class="single-benefits-area">
                                     <img src="img/core-img/b2.png" alt="">
-                                    <h5>Perfect Service</h5>
-                                    <p>Intiam eu sagittis est, at commodo lacini libero. Praesent dignissim sed odio vel aliquam manta lagorn.</p>
+                                    <h5>Perfect Parenting</h5>
+                                    
                                 </div>
                             </div>
 
@@ -267,7 +137,7 @@
                                 <div class="single-benefits-area">
                                     <img src="img/core-img/b3.png" alt="">
                                     <h5>100% Natural</h5>
-                                    <p>Intiam eu sagittis est, at commodo lacini libero. Praesent dignissim sed odio vel aliquam manta lagorn.</p>
+                                    
                                 </div>
                             </div>
 
@@ -276,7 +146,7 @@
                                 <div class="single-benefits-area">
                                     <img src="img/core-img/b4.png" alt="">
                                     <h5>Environmentally friendly</h5>
-                                    <p>Intiam eu sagittis est, at commodo lacini libero. Praesent dignissim sed odio vel aliquam manta lagorn.</p>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -302,8 +172,9 @@
                 <div class="col-12">
                     <!-- Section Heading -->
                     <div class="section-heading text-center">
-                        <h2>OUR SERVICES</h2>
-                        <p>We provide the perfect service for you.</p>
+                        <h2>Our Commitment</h2>
+                        <p>At Plant Parent Place, we are committed to providing accurate, trustworthy, and up-to-date information to help you cultivate thriving green spaces. Whether you're a beginner taking your first steps into the plant world or a seasoned gardener looking to expand your knowledge, we're here to guide you every step of the way.
+.</p>
                     </div>
                 </div>
             </div>
@@ -321,7 +192,7 @@
                             <!-- Content -->
                             <div class="service-content">
                                 <h5>Plants Care</h5>
-                                <p>In Aenean purus, pretium sito amet sapien denim moste consectet sedoni urna placerat sodales.service its.</p>
+                                <p>🌱 Expert Guidance: Our team of experienced horticulturists, botanists, and gardening experts curates in-depth articles, step-by-step guides, and insightful tips to ensure your plants thrive.</p>
                             </div>
                         </div>
 
@@ -333,8 +204,8 @@
                             </div>
                             <!-- Content -->
                             <div class="service-content">
-                                <h5>Pressure Washing</h5>
-                                <p>In Aenean purus, pretium sito amet sapien denim moste consectet sedoni urna placerat sodales.service its.</p>
+                                <h5>🌼 Inspiring Ideas</h5>
+                                <p>Whether you have a spacious garden or a cozy apartment, we provide creative ideas for transforming your spaces with plants. Discover DIY projects, vertical gardening solutions, and more.</p>
                             </div>
                         </div>
 
@@ -346,8 +217,9 @@
                             </div>
                             <!-- Content -->
                             <div class="service-content">
-                                <h5>Tree Service &amp; Trimming</h5>
-                                <p>In Aenean purus, pretium sito amet sapien denim moste consectet sedoni urna placerat sodales.service its.</p>
+                                <h5>🌍 Sustainability: </h5>
+                                <p>
+We believe in nurturing the environment as much as we do our plants. Learn about sustainable gardening practices, eco-friendly planting, and reducing your carbon footprint.</p>
                             </div>
                         </div>
 
@@ -366,271 +238,6 @@
         </div>
     </section>
     <!-- ##### Service Area End ##### -->
-
-    <!-- ##### Testimonial Area Start ##### -->
-    <section class="testimonial-area section-padding-100">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="testimonials-slides owl-carousel">
-
-                        <!-- Single Testimonial Slide -->
-                        <div class="single-testimonial-slide">
-                            <div class="row align-items-center">
-                                <div class="col-12 col-md-6">
-                                    <div class="testimonial-thumb">
-                                        <img src="img/bg-img/13.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <div class="testimonial-content">
-                                        <!-- Section Heading -->
-                                        <div class="section-heading">
-                                            <h2>TESTIMONIAL</h2>
-                                            <p>Some kind words from clients about Alazea</p>
-                                        </div>
-                                        <p>“Alazea is a pleasure to work with. Their ideas are creative, they came up with imaginative solutions to some tricky issues, their landscaping and planting contacts are equally excellent we have a beautiful but also manageable garden as a result. Thank you!”</p>
-                                        <div class="testimonial-author-info">
-                                            <h6>Mr. Nick Jonas</h6>
-                                            <p>CEO of NAVATECH</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Testimonial Slide -->
-                        <div class="single-testimonial-slide">
-                            <div class="row align-items-center">
-                                <div class="col-12 col-md-6">
-                                    <div class="testimonial-thumb">
-                                        <img src="img/bg-img/14.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <div class="testimonial-content">
-                                        <!-- Section Heading -->
-                                        <div class="section-heading">
-                                            <h2>TESTIMONIAL</h2>
-                                            <p>Some kind words from clients about Alazea</p>
-                                        </div>
-                                        <p>“Alazea is a pleasure to work with. Their ideas are creative, they came up with imaginative solutions to some tricky issues, their landscaping and planting contacts are equally excellent we have a beautiful but also manageable garden as a result. Thank you!”</p>
-                                        <div class="testimonial-author-info">
-                                            <h6>Mr. Nazrul Islam</h6>
-                                            <p>CEO of NAVATECH</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Testimonial Slide -->
-                        <div class="single-testimonial-slide">
-                            <div class="row align-items-center">
-                                <div class="col-12 col-md-6">
-                                    <div class="testimonial-thumb">
-                                        <img src="img/bg-img/15.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <div class="testimonial-content">
-                                        <!-- Section Heading -->
-                                        <div class="section-heading">
-                                            <h2>TESTIMONIAL</h2>
-                                            <p>Some kind words from clients about Alazea</p>
-                                        </div>
-                                        <p>“Alazea is a pleasure to work with. Their ideas are creative, they came up with imaginative solutions to some tricky issues, their landscaping and planting contacts are equally excellent we have a beautiful but also manageable garden as a result. Thank you!”</p>
-                                        <div class="testimonial-author-info">
-                                            <h6>Mr. Jonas Nick</h6>
-                                            <p>CEO of NAVATECH</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ##### Testimonial Area End ##### -->
-
-    <!-- ##### Cool Facts Area Start ##### -->
-    <section class="cool-facts-area bg-img section-padding-100-0" style="background-image: url(img/bg-img/cool-facts.png);">
-        <div class="container">
-            <div class="row">
-
-                <!-- Single Cool Facts Area -->
-                <div class="col-12 col-sm-6 col-md-3">
-                    <div class="single-cool-fact d-flex align-items-center justify-content-center mb-100">
-                        <div class="cf-icon">
-                            <img src="img/core-img/cf1.png" alt="">
-                        </div>
-                        <div class="cf-content">
-                            <h2><span class="counter">20</span></h2>
-                            <h6>AWARDS</h6>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Cool Facts Area -->
-                <div class="col-12 col-sm-6 col-md-3">
-                    <div class="single-cool-fact d-flex align-items-center justify-content-center mb-100">
-                        <div class="cf-icon">
-                            <img src="img/core-img/cf2.png" alt="">
-                        </div>
-                        <div class="cf-content">
-                            <h2><span class="counter">70</span></h2>
-                            <h6>PROJECTS</h6>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Cool Facts Area -->
-                <div class="col-12 col-sm-6 col-md-3">
-                    <div class="single-cool-fact d-flex align-items-center justify-content-center mb-100">
-                        <div class="cf-icon">
-                            <img src="img/core-img/cf3.png" alt="">
-                        </div>
-                        <div class="cf-content">
-                            <h2><span class="counter">30</span>+</h2>
-                            <h6>HAPPY CLIENTS</h6>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Cool Facts Area -->
-                <div class="col-12 col-sm-6 col-md-3">
-                    <div class="single-cool-fact d-flex align-items-center justify-content-center mb-100">
-                        <div class="cf-icon">
-                            <img src="img/core-img/cf4.png" alt="">
-                        </div>
-                        <div class="cf-content">
-                            <h2><span class="counter">80</span>K+</h2>
-                            <h6>REVENUE</h6>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Side Image -->
-        <div class="side-img wow fadeInUp" data-wow-delay="500ms">
-            <img src="img/core-img/pot.png" alt="">
-        </div>
-    </section>
-    <!-- ##### Cool Facts Area End ##### -->
-
-    <!-- ##### Team Area Start ##### -->
-    <section class="team-area section-padding-100-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <!-- Section Heading -->
-                    <div class="section-heading text-center">
-                        <h2>OUR TEAM</h2>
-                        <p>A team of dedicated experienced professionals.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-
-                <!-- Single Team Member Area -->
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-team-member text-center mb-100">
-                        <!-- Team Member Thumb -->
-                        <div class="team-member-thumb">
-                            <img src="img/bg-img/team1.png" alt="">
-                            <!-- Social Info -->
-                            <div class="team-member-social-info">
-                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                        <!-- Team Member Info -->
-                        <div class="team-member-info mt-30">
-                            <h5>Joseph Corbin</h5>
-                            <p>CEO &amp; Founder</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Team Member Area -->
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-team-member text-center mb-100">
-                        <!-- Team Member Thumb -->
-                        <div class="team-member-thumb">
-                            <img src="img/bg-img/team2.png" alt="">
-                            <!-- Social Info -->
-                            <div class="team-member-social-info">
-                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                        <!-- Team Member Info -->
-                        <div class="team-member-info mt-30">
-                            <h5>Tasha Deserio</h5>
-                            <p>Garden Designer</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Team Member Area -->
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-team-member text-center mb-100">
-                        <!-- Team Member Thumb -->
-                        <div class="team-member-thumb">
-                            <img src="img/bg-img/team3.png" alt="">
-                            <!-- Social Info -->
-                            <div class="team-member-social-info">
-                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                        <!-- Team Member Info -->
-                        <div class="team-member-info mt-30">
-                            <h5>Cody Baker</h5>
-                            <p>Plan Manager</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Team Member Area -->
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-team-member text-center mb-100">
-                        <!-- Team Member Thumb -->
-                        <div class="team-member-thumb">
-                            <img src="img/bg-img/team4.png" alt="">
-                            <!-- Social Info -->
-                            <div class="team-member-social-info">
-                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                        <!-- Team Member Info -->
-                        <div class="team-member-info mt-30">
-                            <h5>Pearl Kansas</h5>
-                            <p>Marketer</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- ##### Team Area End ##### -->
-
     <!-- ##### Footer Area Start ##### -->
     <footer class="footer-area bg-img" style="background-image: url(img/bg-img/3.jpg);">
         <!-- Main Footer Area -->

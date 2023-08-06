@@ -1,22 +1,4 @@
 <?php
-// require('connection.php');
-//     if(isset($_POST['register']))
-//     { 
-        print_r($_POST);
-    //     $user_exist_query="SELECT * FROM `users` WHERE `username`='$_POST[useremail]'";
-    //     $result =  mysqli_query($con,$user_exist_query);
-    //     if($result)
-    //     {
-    //         #if user has username or email already exists
-    //         if(mysqli_num_rows($result)>0)
-    //         {
-    //                 echo "<script> alert('Username already exists!'); 
-    //                 window.location.href='register.php';
-    //                 </script>";  
-    //         }   
-    //     }
-    // else
-    // {
 
               
         

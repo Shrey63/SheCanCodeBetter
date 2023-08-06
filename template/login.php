@@ -62,7 +62,7 @@
 						<a href="" class="btn btn-social btn-twitter"><i class="fa fa-twitter"></i></a>
 					</div>
 					<div class="text-center mb-5" style="color: #777;">Don't have an account? 
-						<a class="register-link" href="register.html">Register here</a>
+						<a class="register-link" href="register.php">Register here</a>
 			       	</div>
 				</form>
 			</div>

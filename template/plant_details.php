@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Plant Information</title>
+    <!-- <title>Plant Information</title> -->
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
@@ -97,7 +97,7 @@ session_start();
 // if (isset($_GET['plantid'])) {
     // $plantid = $_GET['plantid'];
 
-
+include "head.php";
 $sql = "SELECT * FROM plants WHERE plant_id = ".$_GET['plant_id'];
 $result = $con->query($sql);
 

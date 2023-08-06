@@ -15,11 +15,11 @@
       }
 
       .container {
-        display: flex;
+       flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+       
       }
 
       .team-card {
@@ -88,16 +88,16 @@
       
         <?php
         require('connection.php');
-        // include "head.php";
+        include "head.php";
         // Fetch data from the 'communities' table
         $sql = "SELECT * FROM community";
         $result = $con->query($sql);
-
+        echo '<div class="row">';
         // Check if there are any rows in the result
         if ($result->num_rows > 0) {
             // Loop through the data and display each community card
             while ($row = $result->fetch_assoc()) {
-              echo '<div class="team-card">';
+              echo '<div class=" col-md-3 team-card">';
         ?>
         <img src="<?php echo "comm_pics/".$row['com_logo']?>" class="team-image" />';
                 <?php echo '<div class="team-card">';

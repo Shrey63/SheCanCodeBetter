@@ -10,7 +10,7 @@
     if(isset($_POST['login']))
     {
         print_r($_POST);
-        $query = "SELECT * FROM `users` WHERE `user_name`='" . $_POST['email'] . "' && `password`= '" . $_POST['password'] . "'";
+        $query = "SELECT * FROM `users` WHERE `email`='" . $_POST['email'] . "' && `password`= '" . $_POST['password'] . "'";
     
         $result = mysqli_query($con, $query);
         
